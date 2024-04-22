@@ -1,4 +1,8 @@
-# 🎸Buff 数据爬取项目
+# Buff 数据爬取项目（本项目为共创项目）
+
+## 🎄共创者
+ - <a href="github.com/Viper373">Viper373</a>
+
 
 ## 🎶简介
 
