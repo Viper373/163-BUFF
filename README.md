@@ -2,6 +2,7 @@
 
 ## 🎄共创者
  - <a href="https://github.com/Viper373" target="_blank">Viper373</a>
+ - <a href="https://github.com/Britneye" target="_blank">Britneye</a>
 
 
 ## 🎶简介
