@@ -1,9 +1,7 @@
 import random
 import re
-
 import requests
 import time
-import pymysql
 from fake_useragent import UserAgent
 
 import config  # 配置文件
@@ -18,7 +16,7 @@ class Buff:
         self.data_to_insert = []  # 单页数据
         self.ua = UserAgent()  # 初始化UA库
         # 连接MySQL数据库
-        self.conn = pymysql.connect(host='localhost', user='root', password='zhouyifan666', charset='utf8mb4')
+        self.conn = config.CONNECT
         self.cursor = self.conn.cursor()
         # 创建buff数据库
         self.cursor.execute(f'CREATE DATABASE IF NOT EXISTS {self.db}')

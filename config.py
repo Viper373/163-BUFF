@@ -1,6 +1,12 @@
+import pymysql
+
 # MySQL配置信息
-# 数据库
-DB = 'buff'
+DB = 'buff'  # 数据库
+HOST = 'localhost'  # 主机
+USER = 'root'
+PASSWORD = '#######'  # 密码
+CHARSET = 'utf8mb4'  # 字符集
+CONNECT = pymysql.connect(host=HOST, user=USER, password=PASSWORD, charset=CHARSET)  # 连接数据库
 
 # Cookie池
 COOKIE_LIST = [
